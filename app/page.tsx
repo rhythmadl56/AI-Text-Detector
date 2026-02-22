@@ -105,8 +105,8 @@ export default function Home() {
     setText('')
   }
 
-  const scoreColor = results && results.aiScore > 50 ? 'text-green-400' : results && results.aiScore < 50 ? 'text-red-400' : 'text-yellow-400'
-  const barColor = results && results.aiScore > 50 ? 'bg-green-500' : results && results.aiScore < 50 ? 'bg-red-500' : 'bg-yellow-500'
+  const scoreColor = results && results.aiScore > 50 ? 'text-red-400' : results && results.aiScore < 50 ? 'text-green-400' : 'text-yellow-400'
+  const barColor = results && results.aiScore > 50 ? 'bg-red-500' : results && results.aiScore < 50 ? 'bg-green-500' : 'bg-yellow-500'
 
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center p-6 font-sans">
